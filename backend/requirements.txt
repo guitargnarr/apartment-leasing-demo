@@ -24,6 +24,3 @@ httpx==0.26.0
 # Data Validation (included with FastAPI but explicit for clarity)
 pydantic==2.5.3
 pydantic-settings==2.1.0
-
-# CORS Support
-python-cors==1.0.0
