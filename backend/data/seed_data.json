@@ -1,26 +1,42 @@
 [
   {
-    "id": "unit-0001",
-    "property_name": "Highland Park Apartments",
-    "unit_number": "A202",
-    "bedrooms": 2,
-    "bathrooms": 1.5,
-    "square_feet": 950,
-    "price": 1450,
-    "status": "available",
+    "id": "apt-001", "property_name": "Highland Park Apartments", "unit_number": "A202",
+    "bedrooms": 2, "bathrooms": 1.5, "square_feet": 950, "price": 1450, "status": "available",
     "amenities": ["parking", "washer_dryer", "balcony", "dishwasher"],
-    "location": {
-      "address": "1234 Bardstown Road",
-      "city": "Louisville",
-      "state": "KY",
-      "zip": "40204",
-      "lat": 38.2527,
-      "lng": -85.7585
-    },
-    "images": ["https://picsum.photos/seed/apt1/800/600"],
-    "description": "Spacious 2-bedroom apartment in vibrant Highland Park neighborhood.",
-    "lead_score": 50.0,
-    "date_listed": "2025-09-15T10:00:00",
-    "date_leased": null
+    "location": {"address": "1234 Bardstown Rd", "city": "Louisville", "state": "KY", "zip": "40204", "lat": 38.2527, "lng": -85.7585},
+    "images": ["https://picsum.photos/seed/apt1/800/600"], "description": "Spacious 2-bedroom apartment.",
+    "lead_score": 75.5, "date_listed": "2025-10-01T10:00:00Z", "date_leased": null
+  },
+  {
+    "id": "apt-002", "property_name": "Downtown Living", "unit_number": "B105",
+    "bedrooms": 1, "bathrooms": 1.0, "square_feet": 650, "price": 1150, "status": "available",
+    "amenities": ["ac", "fitness_center", "pet_friendly"],
+    "location": {"address": "456 Main St", "city": "Louisville", "state": "KY", "zip": "40202", "lat": 38.2544, "lng": -85.7594},
+    "images": ["https://picsum.photos/seed/apt2/800/600"], "description": "Modern 1-bedroom downtown loft.",
+    "lead_score": 82.0, "date_listed": "2025-10-05T12:00:00Z", "date_leased": null
+  },
+  {
+    "id": "apt-003", "property_name": "St. Matthews Place", "unit_number": "C301",
+    "bedrooms": 3, "bathrooms": 2.0, "square_feet": 1300, "price": 1850, "status": "leased",
+    "amenities": ["parking", "washer_dryer", "dishwasher", "balcony", "pool"],
+    "location": {"address": "789 Lexington Rd", "city": "Louisville", "state": "KY", "zip": "40207", "lat": 38.2612, "lng": -85.6542},
+    "images": ["https://picsum.photos/seed/apt3/800/600"], "description": "Family-friendly 3-bedroom unit.",
+    "lead_score": 68.0, "date_listed": "2025-09-20T09:00:00Z", "date_leased": "2025-10-18T14:30:00Z"
+  },
+  {
+    "id": "apt-004", "property_name": "Crescent Hill Residences", "unit_number": "D212",
+    "bedrooms": 2, "bathrooms": 1.5, "square_feet": 900, "price": 1350, "status": "pending",
+    "amenities": ["parking", "hardwood_floors", "pet_friendly", "ac"],
+    "location": {"address": "321 Frankfort Ave", "city": "Louisville", "state": "KY", "zip": "40206", "lat": 38.2599, "lng": -85.7012},
+    "images": ["https://picsum.photos/seed/apt4/800/600"], "description": "Charming 2-bedroom in Crescent Hill.",
+    "lead_score": 71.5, "date_listed": "2025-10-10T11:00:00Z", "date_leased": null
+  },
+  {
+    "id": "apt-005", "property_name": "Old Louisville Manor", "unit_number": "E110",
+    "bedrooms": 0, "bathrooms": 1.0, "square_feet": 450, "price": 850, "status": "available",
+    "amenities": ["ac", "hardwood_floors"],
+    "location": {"address": "555 4th St", "city": "Louisville", "state": "KY", "zip": "40208", "lat": 38.2443, "lng": -85.7621},
+    "images": ["https://picsum.photos/seed/apt5/800/600"], "description": "Cozy studio in historic Old Louisville.",
+    "lead_score": 79.0, "date_listed": "2025-10-12T08:00:00Z", "date_leased": null
   }
 ]
