@@ -1,0 +1,26 @@
+[
+  {
+    "id": "unit-0001",
+    "property_name": "Highland Park Apartments",
+    "unit_number": "A202",
+    "bedrooms": 2,
+    "bathrooms": 1.5,
+    "square_feet": 950,
+    "price": 1450,
+    "status": "available",
+    "amenities": ["parking", "washer_dryer", "balcony", "dishwasher"],
+    "location": {
+      "address": "1234 Bardstown Road",
+      "city": "Louisville",
+      "state": "KY",
+      "zip": "40204",
+      "lat": 38.2527,
+      "lng": -85.7585
+    },
+    "images": ["https://picsum.photos/seed/apt1/800/600"],
+    "description": "Spacious 2-bedroom apartment in vibrant Highland Park neighborhood.",
+    "lead_score": 50.0,
+    "date_listed": "2025-09-15T10:00:00",
+    "date_leased": null
+  }
+]
