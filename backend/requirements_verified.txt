@@ -1,0 +1,3 @@
+# Working versions verified October 24, 2025
+pydantic==2.12.3
+sqlalchemy==2.0.44
