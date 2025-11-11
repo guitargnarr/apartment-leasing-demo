@@ -1,9 +1,9 @@
-# CLAUDE.md - apartment-leasing-demo
+# CLAUDE.md - LeaseFlow
 
 # Memory System: ~/.claude/memories/
 
 ## Project Overview
-**Portfolio demonstration project** - Full-stack apartment leasing platform with real-time lead scoring, analytics dashboard, and WebSocket notifications.
+**LeaseFlow** - Portfolio demonstration project showcasing a full-stack intelligent apartment leasing platform with real-time lead scoring, analytics dashboard, and WebSocket notifications.
 
 **Tech Stack:**
 - **Backend:** FastAPI, SQLAlchemy, SQLite, WebSockets

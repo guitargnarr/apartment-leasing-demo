@@ -19,8 +19,8 @@ logger = logging.getLogger(__name__)
 
 # Create FastAPI app
 app = FastAPI(
-    title="Apartment Leasing API",
-    description="Real-time apartment listing and leasing management system",
+    title="LeaseFlow API",
+    description="Intelligent apartment leasing platform with real-time lead scoring and analytics",
     version="1.0.0",
     docs_url="/docs",
     redoc_url="/redoc"
@@ -42,7 +42,7 @@ async def startup_event():
     """
     Initialize database on application startup
     """
-    logger.info("Starting up Apartment Leasing API")
+    logger.info("Starting up LeaseFlow API")
     init_db()
     logger.info("Database initialized")
 
@@ -52,7 +52,7 @@ async def shutdown_event():
     """
     Cleanup on application shutdown
     """
-    logger.info("Shutting down Apartment Leasing API")
+    logger.info("Shutting down LeaseFlow API")
 
 
 # ============================================================================
@@ -91,7 +91,7 @@ async def root():
     Root endpoint - API health check
     """
     return {
-        "message": "Apartment Leasing API",
+        "message": "LeaseFlow API",
         "status": "running",
         "active_connections": manager.get_connection_count(),
         "docs": "/docs"

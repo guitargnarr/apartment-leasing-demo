@@ -1,7 +1,7 @@
-# 🏢 Apartment Leasing Demo
-**Real-Time Property Management System**
+# 🏢 LeaseFlow
+**Intelligent Apartment Leasing Platform**
 
-A production-quality demonstration of modern apartment leasing workflows with real-time data synchronization, automated lead prioritization, and comprehensive analytics.
+A production-quality demonstration of modern apartment leasing workflows with real-time data synchronization, automated lead prioritization, and comprehensive analytics powered by Louisville market data.
 
 **Portfolio Project for Apartment List**
 Built by Matthew David Scott | [LinkedIn](https://linkedin.com/in/mscott77) | [GitHub](https://github.com/mscott77)
