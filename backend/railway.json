@@ -1,0 +1,18 @@
+# Railway.app Configuration
+# Auto-detected from requirements.txt
+
+# Optional: Specify Python version
+# Create railway.json for custom config
+
+{
+  "build": {
+    "builder": "NIXPACKS"
+  },
+  "deploy": {
+    "startCommand": "uvicorn app.main:app --host 0.0.0.0 --port $PORT",
+    "healthcheckPath": "/health",
+    "healthcheckTimeout": 100,
+    "restartPolicyType": "ON_FAILURE",
+    "restartPolicyMaxRetries": 10
+  }
+}

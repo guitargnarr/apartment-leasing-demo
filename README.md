@@ -89,13 +89,45 @@ python3 -m uvicorn app.main:app --reload --host 0.0.0.0 --port 8000
 **Server runs at:** http://localhost:8000
 **API Docs:** http://localhost:8000/docs
 
-### Frontend Setup (Coming Soon)
+### Frontend Setup
 
 ```bash
 cd frontend
 npm install
 npm run dev
 ```
+
+**Frontend runs at:** http://localhost:5173
+
+---
+
+## 🌐 Deployment
+
+### Quick Deploy (Production)
+
+```bash
+# Run deployment helper script
+./deploy.sh
+```
+
+### Manual Deployment Options
+
+1. **Frontend → Vercel** (Recommended)
+   - Connect GitHub repository
+   - Auto-detects Vite configuration
+   - One-click deploy
+
+2. **Backend → Render.com** (Recommended)
+   - Free tier with PostgreSQL
+   - Uses `render.yaml` configuration
+   - Auto-deploys from GitHub
+
+3. **Full Stack → Railway.app**
+   - One-click deploy for both
+   - Better free tier than Render
+   - No cold starts
+
+**📖 See [DEPLOYMENT.md](DEPLOYMENT.md) for detailed instructions**
 
 ---
 
